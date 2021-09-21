@@ -11,7 +11,7 @@ body{
     font-weight: 300;
 }
 
-/* navigation */
+/* Header */
 
 nav{
     background-color: #FFFCE6;
@@ -32,6 +32,21 @@ a{
 a:hover{
     color: #A3CDD9;
     text-decoration: underline;
+}
+
+.menu li{
+
+    font-size: 16px;
+    padding: 15px 5px;
+}
+
+.menu li a{
+    display: block;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
