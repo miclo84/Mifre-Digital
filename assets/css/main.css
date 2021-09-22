@@ -80,24 +80,22 @@ ul{
 /*home*/
 
 #home{
-    background:url('/assets/images/pexels-pixabay-4158.webp') no-repeat center center;
+    background:url('/assets/images/pexels-negative-space-169573.webp') no-repeat center center;
     background-size: cover;
-    min-height: 400px;
+    min-height: 600px;
     width: 100%;
     text-align: center;
     color: #FFFCE6;
 
 }
 
-#home h1 {
-    font-size:55px;
+#home  h1 {
+    font-size: 100px;
     margin-top:100px;
     margin-bottom 10px;
+    text-align: center;
+    color: #506AD4;
     
-}
-
-#home p {
-    font-size: 20px;
 }
 
 
