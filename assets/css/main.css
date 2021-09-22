@@ -18,6 +18,15 @@ body{
     width: 80%;
     margin: auto;    
     overflow:hidden;
+    
+}
+
+h2{
+    font-family: montserrat, sans-serif;
+    font-size: 60px;
+    color: #506AD4;
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Header */
@@ -100,8 +109,24 @@ ul{
 
 
 /*about*/
+
+.container-about{
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes{
+    padding:10px;
+    flex:1;
+    text-align: center;
+
+
+}
+
 #profil-img{
     border-radius: 50%;
+    float:inline-end;
+    
 }
 
 
