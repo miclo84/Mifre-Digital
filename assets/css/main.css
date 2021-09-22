@@ -9,7 +9,7 @@
 
 body{
     font-family: montserrat, roboto, sans-serif;
-    background-color:#FFFCE6 ;
+    background-color:#FFFF ;
     font-weight: 300;
     line-height: 2.5;x§
 }
@@ -39,7 +39,7 @@ header{
 }
 
 .menu a{
-    color: #FFFCE6;
+    color: #FFFF;
     text-decoration: none;
     text-transform: uppercase;
     font-size: large;
@@ -89,12 +89,12 @@ ul{
 /*home*/
 
 #home{
-    background:url('/assets/images/pexels-negative-space-169573.webp') no-repeat center center;
+    background:url('../images/pexels-negative-space-169573.webp') no-repeat center center;
     background-size: cover;
     min-height: 600px;
     width: 100%;
     text-align: center;
-    color: #FFFCE6;
+    color: #FFFF;
 
 }
 
@@ -110,27 +110,33 @@ ul{
 
 /*about*/
 
+#about{
+    min-height: 400px;
+    
+}
+
 .container-about{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .boxes{
     padding:10px;
+    margin: 10px 50px;
     flex:1;
     text-align: center;
+    width: 40%;
+    border: 1px black solid;
 
 
 }
 
 #profil-img{
     border-radius: 50%;
-    float:left;
-    
+    height: min-content;
 }
 
-
-
-
-
-
+.boxes P{
+    margin: auto;
+}
