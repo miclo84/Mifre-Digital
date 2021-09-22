@@ -4,11 +4,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
-    font-family: montserrat, roboto;
+    font-family: montserrat, roboto, sans-serif;
+    background-color:#FFFCE6 ;
     font-weight: 300;
+    line-height: 2.5;x§
+}
+
+.container{
+    width: 80%;
+    margin: auto;    
+    overflow:hidden;
 }
 
 /* Header */
@@ -63,8 +72,14 @@ a:hover{
 /*home*/
 
 #home{
-    background-image: url('./images/pexels-negative-space-169573.jpg');
+    background:url('/assets/images/pexels-pixabay-4158.webp') no-repeat center center;
+    height: 600px;
+    width: 100%;
 
+}
+
+#home h2, p{
+    color: #FFFCE6;
 }
 
 
