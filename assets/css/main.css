@@ -22,8 +22,27 @@ body{
 
 /* Header */
 
-nav{
+header{
     background-color: #506AD4;
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #F2CC39 3px solid;
+}
+
+.menu a{
+    color: #FFFCE6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #F2CC39;
+    text-decoration: underline;
+}
+
+nav{
     padding: 5px 20px;
 }
 
@@ -31,17 +50,6 @@ ul{
     list-style-type: none;
 }
 
-a{
-    color: #FFFCE6;
-    text-decoration: none;
-    font-size: large;
-    font-weight: bold;
-}
-
-a:hover{
-    color: #C2B8AD;
-    text-decoration: underline;
-}
 
 .menu li{
 
@@ -73,17 +81,30 @@ a:hover{
 
 #home{
     background:url('/assets/images/pexels-pixabay-4158.webp') no-repeat center center;
-    height: 600px;
+    background-size: cover;
+    min-height: 400px;
     width: 100%;
-
-}
-
-#home h2, p{
+    text-align: center;
     color: #FFFCE6;
+
+}
+
+#home h1 {
+    font-size:55px;
+    margin-top:100px;
+    margin-bottom 10px;
+    
+}
+
+#home p {
+    font-size: 20px;
 }
 
 
-
+/*about*/
+#profil-img{
+    border-radius: 50%;
+}
 
 
 
