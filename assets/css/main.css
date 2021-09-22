@@ -128,8 +128,6 @@ ul{
     text-align: center;
     width: 40%;
     border: 1px black solid;
-
-
 }
 
 #profil-img{
@@ -139,4 +137,16 @@ ul{
 
 .boxes P{
     margin: auto;
+}
+
+/*container-skills*/
+
+#skills{
+    min-height: 400px;
+}
+
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
