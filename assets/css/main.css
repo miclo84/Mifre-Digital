@@ -112,8 +112,8 @@ ul{
 
 }
 
-#home  h1 {
-    font-size: 100px;
+#home  h2 {
+    font-size: 80px;
     margin-top:100px;
     margin-bottom: 10px;
     text-align: center;
@@ -278,8 +278,8 @@ footer h3{
 /*for medium screen size 950px wide and down*/
 @media  screen and (max-width:950px) {
    
-    .h1{
-       font-size: 3vh;
+    .hero-image, h1{
+       font-size: 50px;
    }
 
    .container-skills {
