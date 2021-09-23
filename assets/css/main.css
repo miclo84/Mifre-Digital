@@ -9,7 +9,7 @@
 
 body{
     font-family: montserrat, roboto, sans-serif;
-    background-color:#FFFF ;
+    background-color: #none;
     font-weight: 300;
     line-height: 2.5;x§
 }
@@ -112,40 +112,68 @@ ul{
 
 #about{
     min-height: 400px;
-    width: 80%;
+    width: 100%;
+    margin: auto;
+   
+    
     
 }
 
+#about h2{
+    
+    text-align: center;
+}
+
 .container-about{
-    display: inline;
-    width: 80%;
+    display: flex;
+    border-bottom: 2px #F2CC39 solid;
     
 }
 
 #profil-img{
     border-radius: 50%;
-    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
     float: left;
+    padding: 30px;
 }
 
 
-/*container-skills*/
+/*skills*/
 
 #skills{
     min-height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+#skills > h3{
+    text-transform: uppercase;
 }
 
 .container-skills{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    border-bottom: 2px #F2CC39 solid;
+    
 }
 
 .boxes{
     padding:10px;
-    margin: 10px 50px;
+    margin: 10px;
     flex:1;
     text-align: center;
     width: 40%;
-    border: 1px black solid;
+    overflow: hidden;
+}
+
+.boxes i{
+    font-size: 80px;
+}
+
+/*contact*/
+
+#contact{
+    min-height: 400px;
+    width: 100%;
+    margin: auto;
 }
