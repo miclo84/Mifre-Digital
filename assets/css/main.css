@@ -172,8 +172,24 @@ ul{
 
 /*contact*/
 
-#contact{
-    min-height: 400px;
-    width: 100%;
-    margin: auto;
+#form-section{
+  clear: left;
+  background: url('../images/pexels-markus-spiske-1089440.webp') no-repeat center center;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  
+}
+
+.contact-me {
+    color:#fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    display: inline;
+    max-width: 800px;
+    position:absolute;
+    margin: 50px;
+    
+    
+ 
+
 }
