@@ -221,6 +221,25 @@ ul{
 
 }
 
+.cta-button{
+    color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: aquamarine;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	
+}
+
+
+.cta-button:hover{
+    background-color: #27ae60;
+    color: #fff;
+}    
+
+
 
 
 /*footer*/
@@ -248,9 +267,10 @@ footer h3{
         font-size: 50px;
         margin: 1%;
         padding: 5%;
-        color: #fff
+        color: #fff;
 
 }
+
 
 .social-media i:hover{
     color: #F2CC39;
