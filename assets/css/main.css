@@ -168,6 +168,7 @@ ul{
 
 .boxes i{
     font-size: 80px;
+    color: #506AD4;
 }
 
 /*contact*/
@@ -205,6 +206,7 @@ footer {
 
 footer h3{
     text-align: center;
+    color: #fff;
 }
 
 .social-media{
@@ -213,9 +215,17 @@ footer h3{
 
 .social-media > li {
     display: inline;
-    color: #F2CC39;
-    justify-content: space-between;
+      
+}
 
-    
-    
+.social-media i {
+        font-size: 50px;
+        margin: 1%;
+        padding: 5%;
+        color: #fff
+
+}
+
+.social-media i:hover{
+    color: #F2CC39;
 }
