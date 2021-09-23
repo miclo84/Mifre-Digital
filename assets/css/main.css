@@ -68,9 +68,7 @@ ul{
     padding: 15px 5px;
 }
 
-.menu li a{
-    display: inline-flexbox;
-}
+
 
 .logo{
     display: flex;
