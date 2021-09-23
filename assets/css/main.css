@@ -177,19 +177,45 @@ ul{
   background: url('../images/pexels-markus-spiske-1089440.webp') no-repeat center center;
   background-size: cover;
   height: 900px;
-  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   
 }
 
 .contact-me {
     color:#fff;
     background-color: rgba(60, 60, 60, 0.6);
-    display: inline;
-    max-width: 800px;
+    max-width:400px;
     position:absolute;
-    margin: 50px;
+    padding:30px;
+    left:35%;
     
-    
- 
 
+}
+
+h3 label input{
+    size: inherit;
+    text-align: center;
+}
+
+footer {
+    background-color: #506AD4;
+    border-top: #F2CC39 3px solid;
+}
+
+footer h3{
+    text-align: center;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+    color: #F2CC39;
+    justify-content: space-between;
+
+    
+    
 }
