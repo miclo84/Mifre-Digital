@@ -10,14 +10,22 @@
 </head>
 <body>
 <header>
-    <nav>
+    
+        <div class="logo">
+            <a href="/index.html">
+                Mifre Digital
+            </a>
+        </div>
+
+        <nav>
+
         <ul class="menu">
-            <li class="logo"><a href="/index.html"> Mifre Digital</a></li>
+           
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#About">About</a></li>
             <li class="item"><a href="#Skills">Skills</a></li>
             
-            <li class="item button"> 
+            <li class="item"> 
                 <a href="#contact">Contact</a></li>
 
             <li class="toggle"><span class="bars"></span></li>
@@ -85,17 +93,23 @@
         </div>
     </Section>
 
-    <section id="form-section">
-            <H2>Contact</H2>
+    <section id="contact">
+
+            
             <form class="contact-me" method="POST" action="#">
                 
                  <h3> Feel Free to contact me </h3>
+                 <br>
                  <label for="fname">First name:</label><br>
-                 <input type="text" id="fname" name="fname" placeholder="First Name here"><br>
-                 <label for="lname">Last name:</label> <br>
-                 <input type="text" id="lname" name="lname" placeholder="Last Name here"><br>
+                         <input type="text" id="fname" name="fname" placeholder="First Name here" class="text-input">
+                 <br>
+
+                 <label for="lname">Last name:</label><br> 
+                        <input type="text" id="lname" name="lname" placeholder="Last Name here" class="text-input">
+                 <br>
+
                  <label for="email">Email:</label> <br>
-                 <input type="email" id="email" name="email" placeholder="Email here"><br>
+                        <input type="email" id="email" name="email" placeholder="Email here" class="text-input"><br>
                  
                  
                  <label for="contact-me">Contact me</label>

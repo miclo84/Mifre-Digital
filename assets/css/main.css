@@ -10,10 +10,12 @@
 body{
     font-family: montserrat, roboto, sans-serif;
     font-weight: 300;
-    line-height: 2.5;
     overflow-x: hidden;
 }
 
+p{
+    line-height: 2;
+}
 .container{
     width: 80%;
     margin: auto;    
@@ -23,7 +25,7 @@ body{
 
 h2{
     font-family: montserrat, sans-serif;
-    font-size: 60px;
+    font-size: 250%;
     color: #506AD4;
     font-weight: bold;
     text-align: center;
@@ -67,20 +69,34 @@ ul{
 }
 
 .menu li a{
-    display: block;
+    display: inline-flexbox;
 }
 
-.logo a {
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo a{
+    color:#F2CC39;
+    text-decoration: underline;
     font-size: 25px;
     font-weight: bold;
+    
 }
+
+.logo h1 {
+    text-align: center;
+}
+
 
 /*menu and nav*/
 
 .menu {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -175,31 +191,37 @@ ul{
 
 /*contact*/
 
-#form-section{
-  clear: left;
+#contact{
   background: url('../images/pexels-markus-spiske-1089440.webp') no-repeat center center;
   background-size: cover;
-  height: 900px;
+  max-height:fit-content;
   max-width: 100%;
-  overflow: hidden;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .contact-me {
     color:#fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
+    max-width:100%;
     padding:30px;
     left:35%;
-    
+  
+}
+
+.text-input{
+    width:100%;
+    height:25px;
+    margin: 5px 0 20px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;
 
 }
 
-h3 label input{
-    resize: inherit;
-    text-align: center;
-}
+
 
 /*footer*/
 
@@ -238,4 +260,7 @@ footer h3{
 /*for medium screen size 950px wide and down*/
 @media  screen and (max-width:950px) {
    
+    .h1{
+       font-size: 3vh;
+   }
 }
