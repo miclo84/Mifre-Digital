@@ -263,4 +263,9 @@ footer h3{
     .h1{
        font-size: 3vh;
    }
+
+   .container-skills {
+       flex-direction: column;
+       align-items: center;
+   }
 }
