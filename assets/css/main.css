@@ -9,9 +9,8 @@
 
 body{
     font-family: montserrat, roboto, sans-serif;
-    background-color: #none;
     font-weight: 300;
-    line-height: 2.5;x§
+    line-height: 2.5;
 }
 
 .container{
@@ -101,9 +100,11 @@ ul{
 #home  h1 {
     font-size: 100px;
     margin-top:100px;
-    margin-bottom 10px;
+    margin-bottom: 10px;
     text-align: center;
-    color: #506AD4;
+    color: #fff;
+    background-color: #506ad438;
+    
     
 }
 
@@ -195,9 +196,11 @@ ul{
 }
 
 h3 label input{
-    size: inherit;
+    resize: inherit;
     text-align: center;
 }
+
+/*footer*/
 
 footer {
     background-color: #506AD4;
