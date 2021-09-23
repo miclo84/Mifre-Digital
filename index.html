@@ -88,18 +88,17 @@
         </div>
     </Section>
 
-    <section id="Contact">
-        <div class="container">
+    <section id="form-section">
             <H2>Contact</H2>
-            <form>
-                <fieldset>
-                 <legend> Feel Free to contact me</legend>
-                 <label for="fname">First name:</label>
-                 <input type="text" id="fname" name="fname"><br><br>
-                 <label for="lname">Last name:</label>
-                 <input type="text" id="lname" name="lname"><br><br>
-                 <label for="email">Email:</label>
-                 <input type="email" id="email" name="email"><br><br>
+            <form class="contact-me" method="POST" action="#">
+                
+                 <h3> Feel Free to contact me </h3>
+                 <label for="fname">First name:</label><br>
+                 <input type="text" id="fname" name="fname" placeholder="First Name here"><br>
+                 <label for="lname">Last name:</label> <br>
+                 <input type="text" id="lname" name="lname" placeholder="Last Name here"><br>
+                 <label for="email">Email:</label> <br>
+                 <input type="email" id="email" name="email" placeholder="Email here"><br>
                  
                  
                  <label for="contact-me">Contact me</label>
@@ -107,10 +106,10 @@
 		<br>
       	<textarea id='contact-me' cols="50" rows="10" name="contact me" placeholder="Contact me"></textarea>
 		<br>
-		<input type="submit"> 
-        </fieldset>          
+		<input class="cta-button" type="submit" value="Send"> 
+             
                </form>
-        </div>
+       
 
     </section>
 
