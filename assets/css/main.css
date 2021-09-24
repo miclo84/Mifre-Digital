@@ -29,6 +29,7 @@ h2{
     color: #506AD4;
     font-weight: bold;
     text-align: center;
+    padding: 3vh;
 }
 
 /* Header */
@@ -130,15 +131,9 @@ ul{
     min-height: 400px;
     width: 100%;
     margin: auto;
+   
 }
 
-#about p {
-    line-height: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 3vh;
-}
 
 #about h2{
     
@@ -147,9 +142,17 @@ ul{
 
 .container-about{
     display: flex;
-    border-bottom: 2px #F2CC39 solid;
-    
+    flex-direction: row;    
+    justify-content: center;
 }
+
+.container-about p {
+    line-height: 2;
+    padding: 3vh;
+
+}
+
+
 
 #profil-img{
     border-radius: 50%;
@@ -159,6 +162,7 @@ ul{
     max-height: 250px;
     padding: 2vh;
     margin: 5vh;
+}
 
 
 /*skills*/
@@ -169,8 +173,15 @@ ul{
     margin: auto;
 }
 
-#skills > h3{
+.boxes h3{
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: montserrat;
+    text-decoration: underline;
+    font-weight: bold;
+    color:#506AD4;
 }
 
 .container-skills{
@@ -251,6 +262,7 @@ ul{
 footer {
     background-color: #506AD4;
     border-top: #F2CC39 3px solid;
+    max-height: fit-content;
 }
 
 footer h3{
