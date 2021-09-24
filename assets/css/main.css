@@ -130,9 +130,14 @@ ul{
     min-height: 400px;
     width: 100%;
     margin: auto;
-   
-    
-    
+}
+
+#about p {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 3vh;
 }
 
 #about h2{
@@ -148,11 +153,12 @@ ul{
 
 #profil-img{
     border-radius: 50%;
+    display: flex;
+    flex-direction: column;
     max-width: 250px;
     max-height: 250px;
-    float: left;
-    padding: 30px;
-}
+    padding: 2vh;
+    margin: 5vh;
 
 
 /*skills*/
