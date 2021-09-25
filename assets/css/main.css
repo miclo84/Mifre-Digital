@@ -26,7 +26,7 @@ p{
 h2{
     font-family: montserrat, sans-serif;
     font-size: 250%;
-    color: #506AD4;
+    color: #151740;
     font-weight: bold;
     text-align: center;
     padding: 3vh;
@@ -35,7 +35,7 @@ h2{
 /* Header */
 
 header{
-    background-color: #506AD4;
+    background-color: #151740;
     min-height: 70px;
     padding-top: 30px;
     border-bottom: #F2CC39 3px solid;
@@ -119,7 +119,7 @@ ul{
     margin-bottom: 10px;
     text-align: center;
     color: #fff;
-    background-color: #506ad438;
+    background-color: #151740;
     
     
 }
@@ -168,40 +168,52 @@ ul{
 /*skills*/
 
 #skills{
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
-    margin: auto;
+    
+}
+
+#skills h3 {
+    text-align: center center;
+
 }
 
 .boxes h3{
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
     text-align: center;
     font-family: montserrat;
     text-decoration: underline;
     font-weight: bold;
-    color:#506AD4;
+    color:#151740;
 }
 
-.container-skills{
+.boxes1 h3{
+    text-transform: uppercase;
     display: flex;
-    border-bottom: 2px #F2CC39 solid;
-    
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color:#151740;
 }
 
-.boxes{
+.container-skills1{
+    display: flex;
+    width: 100%;
+}
+
+.boxes1{
     padding:10px;
     margin: 10px;
-    flex:1;
+    flex:50%;
     text-align: center;
     width: 40%;
     overflow: hidden;
 }
 
-.boxes i{
+.boxes1 i {
     font-size: 80px;
-    color: #506AD4;
+    color: #151740;
 }
 
 /*contact*/
@@ -260,14 +272,16 @@ ul{
 /*footer*/
 
 footer {
-    background-color: #506AD4;
+    background-color: #151740;
     border-top: #F2CC39 3px solid;
-    max-height: fit-content;
+    max-height: 150px;
+    overflow-y: hidden;
 }
 
 footer h3{
     text-align: center;
     color: #fff;
+    margin-top: 1.5%;
 }
 
 .social-media{
@@ -281,8 +295,7 @@ footer h3{
 
 .social-media i {
         font-size: 50px;
-        margin: 1%;
-        padding: 5%;
+        padding: 2%;
         color: #fff;
 
 }
