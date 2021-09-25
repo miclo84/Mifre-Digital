@@ -119,7 +119,7 @@ ul{
     margin-bottom: 10px;
     text-align: center;
     color: #fff;
-    background-color: #151740;
+    background-color: #15174015;
     
     
 }
@@ -170,6 +170,7 @@ ul{
 #skills{
     min-height: 500px;
     width: 100%;
+    padding: 1%;
     
 }
 
@@ -180,11 +181,7 @@ ul{
 
 .boxes h3{
     text-transform: uppercase;
-    text-align: center;
-    font-family: montserrat;
-    text-decoration: underline;
-    font-weight: bold;
-    color:#151740;
+
 }
 
 .boxes1 h3{
@@ -199,21 +196,22 @@ ul{
 
 .container-skills1{
     display: flex;
-    width: 100%;
+    
 }
 
 .boxes1{
-    padding:10px;
-    margin: 10px;
     flex:50%;
     text-align: center;
     width: 40%;
     overflow: hidden;
+    padding: 3%;
+    margin: 1%;
 }
 
 .boxes1 i {
-    font-size: 80px;
+    font-size: 1000%;
     color: #151740;
+    text-align: center;
 }
 
 /*contact*/
