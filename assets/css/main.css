@@ -38,7 +38,7 @@ header{
     background-color: #151740;
     min-height: 70px;
     padding-top: 30px;
-    border-bottom: #F2CC39 3px solid;
+    border-bottom: #Ffff 3px solid;
 }
 
 .menu a{
@@ -79,7 +79,7 @@ ul{
 }
 
 .logo a{
-    color:#F2CC39;
+    color:#Ffff;
     text-decoration: underline;
     font-size: 25px;
     font-weight: bold;
@@ -115,11 +115,11 @@ ul{
 
 #home  h2 {
     font-size: 80px;
-    margin-top:100px;
+    margin-top:50px;
     margin-bottom: 10px;
     text-align: center;
     color: #fff;
-    background-color: #15174015;
+    background-color: #151740a8;
     
     
 }
@@ -133,7 +133,6 @@ ul{
     margin: auto;
    
 }
-
 
 #about h2{
     
@@ -151,7 +150,6 @@ ul{
     padding: 3vh;
 
 }
-
 
 
 #profil-img{
@@ -277,8 +275,8 @@ ul{
 
 footer {
     background-color: #151740;
-    border-top: #F2CC39 3px solid;
-    max-height: 150px;
+    border-top: #Ffff 3px solid;
+    height: fit-content;
     overflow-y: hidden;
 }
 
@@ -317,8 +315,3 @@ footer h3{
        font-size: 50px;
    }
 
-   .container-skills {
-       flex-direction: column;
-       align-items: center;
-   }
-}
