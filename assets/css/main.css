@@ -13,6 +13,10 @@ body{
     overflow-x: hidden;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 p{
     line-height: 2;
 }
@@ -118,10 +122,14 @@ ul{
     margin-top:50px;
     margin-bottom: 10px;
     text-align: center;
-    color: #fff;
-    background-color: #151740a8;
-    
-    
+    color:#151740;
+}
+
+.background{
+    width: 100px;
+    height: 50px;
+    background-color: #15174036;
+    text-align: center;
 }
 
 
@@ -143,6 +151,7 @@ ul{
     display: flex;
     flex-direction:row;    
     justify-content: space-around;
+    align-items: center;
     
 }
 
