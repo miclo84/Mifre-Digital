@@ -1,4 +1,5 @@
-This project builds my cv, portfolio and brand, and the vision is to create job opportunities. Futures employers and clients will fast get an overview of my knowledge and portfolio. 
+This project builds my cv, portfolio and brand, and the vision is to create job opportunities. 
+Futures employers and clients will fast get an overview of my knowledge and portfolio. 
 This project starts here, but I intend to build over time with content and new features. I will be able to share my portfolio.
 
 the menu is built with flexbox mostly, and I got some inspiration from 
