@@ -117,13 +117,38 @@ ul{
 }
 
 #home  h2 {
-    font-size: 80px;
-    margin-top:50px;
+    font-size: 70px;
+    margin-top: -5px;
     margin-bottom: 10px;
     text-align: center;
     color:#151740;
+    text-decoration: underline #151740;
+    
 }
 
+@media  screen and (max-width:755px) {
+    #home h2 {
+        font-size: 55px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        text-align: center;
+        color:#151740;
+        text-decoration: underline #151740;
+
+    }
+}
+
+@media  screen and (max-width:380px) {
+    #home h2 {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        color:#151740;
+        text-decoration: underline #151740;
+
+    }
+}
 
 
 /*about*/
