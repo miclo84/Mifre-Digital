@@ -19,7 +19,10 @@ I used it although the project to position and made sections mobile responsive w
 ![image](https://user-images.githubusercontent.com/86439883/134823516-354aed69-e30d-4723-b3ef-7ce0fd3fbdcf.png)
 ![image](https://user-images.githubusercontent.com/86439883/134823551-fb4998e8-b6eb-444b-bb45-40d862823d46.png)
 
+
 ![image](https://user-images.githubusercontent.com/86439883/134823529-e61e3524-6dd6-48f9-b388-9291b083952f.png)
+
+
 ![image](https://user-images.githubusercontent.com/86439883/134823574-467207cd-f13c-4799-906c-5028568765cd.png)
 
 
