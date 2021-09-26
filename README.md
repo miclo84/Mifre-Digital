@@ -3,6 +3,13 @@ TThis project builds my cv, portfolio and brand, and the vision is to create job
 the menu is built with flexbox mostly, and I got some inspiration from 
 follow Andrew https://www.youtube.com/channel/UCETveVX7TPauIupxYz6sFtA, a Youtuber and coder.  
 
+<<<<<<< HEAD
+=======
+![image](https://user-images.githubusercontent.com/86439883/134822806-aa874b0f-89e0-4673-8eeb-99ab857d6812.png)
+
+
+In the home section, footer and backgound images I used my new gain knowledge from Codeinsitute HTML and CSS course. 
+>>>>>>> ffd782940250f54b56d3b825a8688c8e27815e0d
 
 
 
