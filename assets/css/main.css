@@ -27,6 +27,8 @@ p{
     
 }
 
+
+
 h2{
     font-family: montserrat, sans-serif;
     font-size: 250%;
@@ -44,36 +46,6 @@ header{
     padding-top: 30px;
     border-bottom: #Ffff 3px solid;
 }
-
-.menu a{
-    color: #FFFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: large;
-    font-weight: bold;
-}
-
-.menu a:hover{
-    color: #F2CC39;
-    text-decoration: underline;
-}
-
-nav{
-    padding: 5px 20px;
-}
-
-ul{
-    list-style-type: none;
-}
-
-
-.menu li{
-
-    font-size: 16px;
-    padding: 15px 5px;
-}
-
-
 
 .logo{
     display: flex;
@@ -94,15 +66,42 @@ ul{
     text-align: center;
 }
 
+}
 
-/*menu and nav*/
+nav{
+    padding: 5px 20px;
+}
+
+ul{
+    list-style-type: none;
+}
 
 .menu {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
+    text-align: center;
+    height: 100%;
 }
 
+.menu a{
+    color: #FFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #F2CC39;
+    text-decoration: underline;
+}
+
+.menu li{
+
+        font-size: 16px;
+        padding: 15px 5px;
+    }
 
 
 /*home*/
@@ -125,12 +124,6 @@ ul{
     color:#151740;
 }
 
-.background{
-    width: 100px;
-    height: 50px;
-    background-color: #15174036;
-    text-align: center;
-}
 
 
 /*about*/
