@@ -33,7 +33,7 @@ I applied my new Codeinsitute HTML and CSS course knowledge for the "contact me"
 
 ![image](https://user-images.githubusercontent.com/86439883/134823736-1cf93125-580a-447d-ae5a-a2ba9e600859.png)
 
-I decided to make this project a one side project with four sections because my main goal was to focus on Semantic markup to structure HTML and get familiar with CSS. Not the content itself 
+I decided to make this project a one side project with four sections because main goal was to focus on Semantic markup to structure HTML and CSS. Not the content itself 
 
 Summary 
 
