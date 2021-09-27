@@ -37,7 +37,7 @@ I decided to make this project a one side project with four sections because my 
 
 Summary 
 
-It's My first ever HTML and CSS coding project. I had to adjust and change from my initial plan and after a chat with my mentor. Overall, I think I did ok I would like to have better knowledge, and at the same time, this gives me the motivation to learn and reach the end goal of becoming a full-stack web developer and landing jobs and different projects.
+It's My first ever HTML and CSS coding project. I had to adjust and change from my initial plan after a chat with my mentor. Overall, I think I did ok I would like to have better knowledge,  at the same time, this gives me the motivation to learn and reach the end goal of becoming a full-stack web developer and landing jobs and different projects.
 
 
 
